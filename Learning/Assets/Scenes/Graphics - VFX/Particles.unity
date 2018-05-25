@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 919169571}
   - component: {fileID: 919169570}
   - component: {fileID: 919169569}
+  - component: {fileID: 919169573}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -771,12 +772,12 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -795,6 +796,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 30.000002, y: -90.00001, z: 0}
+--- !u!114 &919169573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 919169568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 86de8491f02718348aae601e3bbeb6ea, type: 2}
 --- !u!1001 &923595180
 Prefab:
   m_ObjectHideFlags: 0
@@ -1369,11 +1382,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 3.5
       objectReference: {fileID: 0}
     - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1412,7 +1425,7 @@ Prefab:
     - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
         type: 2}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
         type: 2}
