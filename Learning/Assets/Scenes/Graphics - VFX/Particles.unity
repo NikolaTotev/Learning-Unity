@@ -113,11 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &16246851 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589,
-    type: 2}
-  m_PrefabInternal: {fileID: 1972635247}
 --- !u!1 &89402230
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,88 +803,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile: {fileID: 11400000, guid: 86de8491f02718348aae601e3bbeb6ea, type: 2}
---- !u!1001 &923595180
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 16246851}
-    m_Modifications:
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.0000035762787
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 4.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309837474408980, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: NoiseModule.frequency
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: InitialModule.startLifetime.scalar
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: NoiseModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: InheritVelocityModule.enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-        type: 2}
-      propertyPath: EmissionModule.rateOverDistance.scalar
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: c553027627a99c3409d196ec89562aaf, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &996085164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,11 +1020,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1301009524}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!198 &1344727140 stripped
-ParticleSystem:
-  m_PrefabParentObject: {fileID: 198428555589707494, guid: c553027627a99c3409d196ec89562aaf,
-    type: 2}
-  m_PrefabInternal: {fileID: 923595180}
 --- !u!1 &1371314137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,79 +1288,42 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 3.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalPosition.y
       value: 2.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalPosition.z
       value: 7.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalRotation.x
       value: -0.7071065
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_LocalRotation.w
       value: 0.7071072
       objectReference: {fileID: 0}
-    - target: {fileID: 4156822625507204, guid: e442fb8837631f344af9ad275996a589, type: 2}
+    - target: {fileID: 4205092337499240, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: SubModule.subEmitters.Array.data[0].emitter
-      value: 
-      objectReference: {fileID: 1344727140}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: SubModule.subEmitters.Array.data[0].type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: InitialModule.startSize.scalar
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: ClampVelocityModule.separateAxis
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: LightsModule.enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: LightsModule.light
-      value: 
-      objectReference: {fileID: 108049781268623992, guid: bd0c3c929d9f4ca49aeda7cd0add9e79,
-        type: 2}
-    - target: {fileID: 198209784243861088, guid: e442fb8837631f344af9ad275996a589,
-        type: 2}
-      propertyPath: LightsModule.intensityCurve.scalar
-      value: 5
+    - target: {fileID: 1569776189815484, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
+      propertyPath: m_Name
+      value: Fireflies
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: e442fb8837631f344af9ad275996a589, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: 926bcc74d9c8b514eba55ac010504f0b, type: 2}
   m_IsPrefabParent: 0
